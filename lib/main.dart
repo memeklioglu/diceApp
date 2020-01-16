@@ -47,7 +47,7 @@ class _DicePageState extends State<DicePage> {
                     rightDiceNumber = Random().nextInt(6) + 1;
                   });
                   print('Right button got pressed');
-                }, 
+                },
                 child: Image.asset(('images/dice$rightDiceNumber.png')
                 ),
               ),
